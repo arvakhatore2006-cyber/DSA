@@ -35,7 +35,7 @@ public:
         return merge(left, right);
     }
 
-private:
+
     ListNode* merge(ListNode* left, ListNode* right) {
         ListNode dummy(0);
         ListNode* curr = &dummy;
